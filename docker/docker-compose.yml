@@ -1,18 +1,5 @@
 version: "3.8"
 services:
-  # --- Bloc POSTGRES COMMENTÉ ---
-  # postgres:
-  #   image: postgres:14
-  #   environment:
-  #     POSTGRES_DB: bench
-  #     POSTGRES_USER: bench
-  #     POSTGRES_PASSWORD: bench
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - pgdata:/var/lib/postgresql/data
-  # --- Fin du bloc POSTGRES COMMENTÉ ---
-
   prometheus:
     image: prom/prometheus:latest
     volumes:
@@ -34,12 +21,14 @@ services:
     environment:
       - INFLUXDB_ADMIN_USER=admin
       - INFLUXDB_ADMIN_PASSWORD=adminpass
+      - INFLUXDB_ORG=perf
+      - INFLUXDB_BUCKET=jmeter
+      - INFLUXDB_TOKEN=0o_I7zidQObV7qbw7f1lBiTCgwhJDCL1fsAfbn6pzOQ0WEsqTYoVqpKkrM5WJpZx-EUkQuhgKxwAsaASQoygIg==
     ports:
       - "8086:8086"
     volumes:
       - influxdata:/var/lib/influxdb2
 
 volumes:
-  #pgdata:
   grafana_data:
   influxdata:

@@ -31,7 +31,7 @@ def extract_ids():
         print("Connexion réussie. Démarrage de l'extraction des IDs...")
 
         # Tables à exporter
-        tables = [('item', 'item_ids.csv', 100000), ('category', 'category_ids.csv', 2000)]
+        tables = [('item', 'item.csv', 100000), ('category', 'category.csv', 2000)]
 
         for table_name, file_name, expected_count in tables:
 
