@@ -22,3 +22,10 @@
 <img width="1366" height="768" alt="Capture d’écran (897)" src="https://github.com/user-attachments/assets/6718f746-e977-44a3-a2ac-bcb19154ab38" />
 # -Fichier CSV
 dans benchmark_SA/jmeter/data/*****.csv
+# -Les tableaux
+<img width="1366" height="768" alt="Capture d’écran (909)" src="https://github.com/user-attachments/assets/f63ebe53-40ba-4036-a135-81be67695f79" />
+<img width="1366" height="768" alt="Capture d’écran (908)" src="https://github.com/user-attachments/assets/6a89b2c1-1ee0-4f65-8392-7eec44c94167" />
+<img width="1366" height="768" alt="Capture d’écran (907)" src="https://github.com/user-attachments/assets/b8b16eef-e921-40d9-8f9d-8cbcec083354" />
+<img width="1366" height="768" alt="Capture d’écran (911)" src="https://github.com/user-attachments/assets/1b6ac42f-4ae4-413d-874d-9058c16dd917" />
+<img width="1366" height="768" alt="Capture d’écran (910)" src="https://github.com/user-attachments/assets/d9370196-d4a0-441b-afc0-3e42920c2dcc" />
+
